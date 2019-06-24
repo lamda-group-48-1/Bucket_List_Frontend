@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import Img from '../../assets/images/img.png'
 
 
@@ -12,7 +13,7 @@ class Auth extends Component {
               <p>Lamda</p>
               <hr/>
               <div className="buttons">
-              <div className="login">Login</div>
+              <div className="login"><Link to="/">Login</Link>Login</div>
               <div className="signup">Signup</div>
               </div>
           </div>
