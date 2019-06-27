@@ -14,7 +14,7 @@ class Forms extends Component {
 
   render() {
     const { register } = this.state;
-    const word = register ? 'Sign in.' : 'sign up';
+    const word = register ? 'Sign in.' : 'Sign up';
 
     return (
       <div className="login">

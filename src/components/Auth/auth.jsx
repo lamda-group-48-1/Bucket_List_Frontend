@@ -5,6 +5,7 @@ import Forms from './forms';
 class Form extends PureComponent {
   render() {
     return (
+      <React.Fragment>
       <div className="container">
         <div className="login__wrapper">
           <h1 className="header">
@@ -20,6 +21,7 @@ class Form extends PureComponent {
         </div>
         <div className="wrapper" />
       </div>
+      </React.Fragment>
     );
   }
 }
