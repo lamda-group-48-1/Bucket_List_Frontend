@@ -2,7 +2,7 @@ import React from 'react';
 import propTypes from 'prop-types';
 
 const Input = ({
-  type, placeholder, name, id,
+  type, placeholder, name, id, value, onChange
 }) => (
   <div>
     <input
@@ -11,6 +11,8 @@ const Input = ({
       name={name}
       id={id}
       required
+      value={value}
+      onChange={onChange}
     />
     <small className="error" />
   </div>
